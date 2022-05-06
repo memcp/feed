@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;600;700&family=Jost:ital,wght@0,300;0,400;0,700;1,500&family=Martel+Sans:wght@400;700&family=Open+Sans:wght@300;400;700&family=Public+Sans:wght@100;400;700&family=Radio+Canada:wght@400;700&display=swap');
+
+.container {
+  margin: 0 auto;
+  max-width: 1160px;
+  width: 100%;
+
+  font-family: 'Martel Sans', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  padding: 0 16px;
+}
+
+.post {
+  transition: 150ms;
+  opacity: 0;
+
+  padding: 48px 16px;
+  margin: 24px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.post.show {
+  opacity: 1;
+}
+
+.post-title {
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.post-body {
+  padding: 24px 0;
+  font-size: 20px;
+}
